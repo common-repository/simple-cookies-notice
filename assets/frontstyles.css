@@ -1,0 +1,27 @@
+.soko-cookies-pop {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.59);
+  z-index: 999;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  display: none;
+}
+
+.soko-cookies-pop span {
+  font-weight: 300;
+}
+
+.soko-cookies-pop span a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.soko-close-popup{
+	display: inline-block;
+	vertical-align: middle;
+    margin-left: 20px;
+    cursor: pointer;
+}
